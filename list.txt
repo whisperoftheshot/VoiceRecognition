@@ -1,0 +1,5 @@
+matlab,C:\Program Files (x86)\MATLAB\R2009b\bin\matlab.exe
+Inventor,C:\Program Files\Autodesk\Inventor 2012\Bin\Inventor.exe
+explorer,C:\Windows\explorer.exe
+chrome,C:\Users\Justin\AppData\Local\Google\Chrome\Application\chrome.exe
+Pandora,C:\Program Files (x86)\Pandora\Pandora.exe

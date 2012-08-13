@@ -1,0 +1,27 @@
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.Form1.resources
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.Properties.Resources.resources
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\bin\Debug\VoiceRecognition.exe
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\bin\Debug\VoiceRecognition.pdb
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.exe
+c:\users\justin\documents\visual studio 2010\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.pdb
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.exe
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.pdb
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\bin\Debug\VoiceRecognition.exe
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\bin\Debug\VoiceRecognition.pdb
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.Form1.resources
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.Properties.Resources.resources
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Justin\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\GenerateResource.write.1.tlog
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.exe
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.pdb
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\bin\Debug\VoiceRecognition.exe
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\bin\Debug\VoiceRecognition.pdb
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\ResolveAssemblyReference.cache
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.Form1.resources
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\VoiceRecognition.Properties.Resources.resources
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\GenerateResource.read.1.tlog
+L:\Dropbox\Projects\VoiceRecognition\VoiceRecognition\obj\x86\Debug\GenerateResource.write.1.tlog
