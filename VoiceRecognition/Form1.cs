@@ -45,6 +45,7 @@ namespace VoiceRecognition
         public string[] home_list = new string[2] { "set", "adjust"};
         public string[] ac_list = new string[5] { "temp", "temperature", "heat", "ac", "air" };
 
+        public static string[] recognized_list = new string[12];
 
         //Grammar applicationsGrammar;
         public Form1()
@@ -59,25 +60,33 @@ namespace VoiceRecognition
             add_button.Enabled = false;
             save_button.Enabled = false;
 
+            
 
             recognitionEngine.SpeechRecognized += (s, args) =>
             {
-                
-                string line = "";
+                int i = 0;
+                string line =   "";
 
                 foreach (RecognizedWordUnit word in args.Result.Words)
                 {
-                    float word_cf = (float)Convert.ToDecimal (text_word_confidence.Text);
+                    //float word_cf = (float)Convert.ToDecimal (text_word_confidence.Text);
+                    float word_cf = 0.5F;
 
                     if (word.Confidence > word_cf)
                         line += word.Text + " ";
+                        recognized_list[i] += word.Text;
+                        i++;
+                        if (i > 12)
+                        {
+                            i = 0;
+                        }
                 }
 
                 string command = Regex.Replace(line, computername_s, "").Trim();
 
                 label4.Visible = true;
                 label7.Visible = false;
-
+                
                 //string command = find_command(line,computername_s);
 
                 if (command.Contains(open_list[0]) || command.Contains(open_list[1]) || command.Contains(open_list[2]))
@@ -481,6 +490,13 @@ namespace VoiceRecognition
 
             //newpath = result.FileName;
             //string name = result.SafeFileName;
+        }
+
+        private void settings_button_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            
         }
 
 

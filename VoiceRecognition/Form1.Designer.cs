@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.start_button = new System.Windows.Forms.Button();
             this.stop_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,10 +52,8 @@
             this.delete_button = new System.Windows.Forms.Button();
             this.open_file_button = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.text_word_confidence = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.settings_button = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -170,7 +169,7 @@
             this.computername.Name = "computername";
             this.computername.Size = new System.Drawing.Size(219, 16);
             this.computername.TabIndex = 9;
-            this.computername.Text = "Computer";
+            this.computername.Text = "Skynet";
             // 
             // label4
             // 
@@ -228,7 +227,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(490, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(359, 24);
             this.menuStrip1.TabIndex = 15;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -304,38 +303,6 @@
             this.open_file_button.UseVisualStyleBackColor = false;
             this.open_file_button.Click += new System.EventHandler(this.open_file_button_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label5.Location = new System.Drawing.Point(359, 55);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 13);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Settings";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label6.Location = new System.Drawing.Point(359, 78);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 13);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Word Confidence";
-            // 
-            // text_word_confidence
-            // 
-            this.text_word_confidence.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.text_word_confidence.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.text_word_confidence.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.text_word_confidence.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.text_word_confidence.Location = new System.Drawing.Point(362, 94);
-            this.text_word_confidence.Name = "text_word_confidence";
-            this.text_word_confidence.Size = new System.Drawing.Size(103, 16);
-            this.text_word_confidence.TabIndex = 20;
-            this.text_word_confidence.Text = "0.5";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -347,16 +314,27 @@
             this.label7.Text = "Error";
             this.label7.Visible = false;
             // 
+            // settings_button
+            // 
+            this.settings_button.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.settings_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.settings_button.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.settings_button.Location = new System.Drawing.Point(265, 295);
+            this.settings_button.Name = "settings_button";
+            this.settings_button.Size = new System.Drawing.Size(75, 23);
+            this.settings_button.TabIndex = 22;
+            this.settings_button.Text = "Settings";
+            this.settings_button.UseVisualStyleBackColor = false;
+            this.settings_button.Click += new System.EventHandler(this.settings_button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
-            this.ClientSize = new System.Drawing.Size(490, 337);
+            this.ClientSize = new System.Drawing.Size(359, 337);
+            this.Controls.Add(this.settings_button);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.text_word_confidence);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.open_file_button);
             this.Controls.Add(this.delete_button);
             this.Controls.Add(this.save_button);
@@ -373,6 +351,8 @@
             this.Controls.Add(this.stop_button);
             this.Controls.Add(this.start_button);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Speech Launcher";
@@ -408,10 +388,8 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox text_word_confidence;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button settings_button;
     }
 }
 

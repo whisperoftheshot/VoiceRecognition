@@ -1,0 +1,46 @@
+<GRAMMAR>
+	<COMPUTER>
+	skynet
+	</COMPUTER>
+		<OPEN>
+			<COMMAND>open</COMMAND>
+			<COMMAND>start</COMMAND>
+			<COMMAND>run</COMMAND>
+			<COMMAND>launch</COMMAND>
+			<COMMAND>load</COMMAND>
+		</OPEN>
+		<CLOSE>
+			<COMMAND>close</COMMAND>
+			<COMMAND>kill</COMMAND>
+			<COMMAND>exit</COMMAND>
+			<COMMAND>escape</COMMAND>
+		</CLOSE>
+		<SEARCH>
+			<COMMAND>search</COMMAND>
+			<COMMAND>google</COMMAND>
+			<COMMAND>look up</COMMAND>
+			<COMMAND>find</COMMAND>
+		</SEARCH>
+		<SET>
+			<COMMAND>temperature</COMMAND>
+			<COMMAND>temp</COMMAND>
+			<COMMAND>a c </COMMAND>
+			<COMMAND>heat</COMMAND>
+			<COMMAND>air conditioning</COMMAND>
+		</SET>
+		<MUSIC>
+			<COMMAND>play</COMMAND>
+			<COMMAND>pause</COMMAND>
+			<COMMAND>stop</COMMAND>
+			<COMMAND>skip</COMMAND>
+			<COMMAND>back</COMMAND>
+			<COMMAND>forward</COMMAND>
+			<COMMAND>stop</COMMAND>
+			<COMMAND>volume up</COMMAND>
+			<COMMAND>volume down</COMMAND>
+			<COMMAND>volume max</COMMAND>
+			<COMMAND>mute</COMMAND>
+			<COMMAND>volume off</COMMAND>
+		</MUSIC>
+	
+</GRAMMAR>
